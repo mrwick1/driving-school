@@ -1,7 +1,7 @@
-import React from "react";
+import StepOne from "./components";
 
 const App = () => {
-  return <div>App</div>;
+  return <StepOne />;
 };
 
 export default App;
