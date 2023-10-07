@@ -1,7 +1,7 @@
-import StepOne from "./components";
+import StepTwo from "./components/step2";
 
 const App = () => {
-  return <StepOne />;
+  return <StepTwo />;
 };
 
 export default App;
