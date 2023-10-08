@@ -185,7 +185,7 @@ const Step3Right = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch rounded bg-[#4853F3] h-12 flex flex-row items-center justify-center p-3 box-border gap-[8px] text-white">
+        <button className="self-stretch rounded bg-[#4853F3] h-12 flex flex-row items-center justify-center p-3 box-border gap-[8px] text-white">
           <img
             className="relative w-6 h-6 overflow-hidden shrink-0 hidden"
             alt=""
@@ -197,12 +197,15 @@ const Step3Right = () => {
             alt=""
             src="/outlinesupport2.svg"
           />
-        </div>
-        <div className="self-stretch rounded h-12 overflow-hidden shrink-0 flex flex-col items-center justify-center py-0 px-4 box-border text-center text-[#4853F3]">
+        </button>
+        <a
+          href="#"
+          className="self-stretch rounded h-12 overflow-hidden shrink-0 flex flex-col items-center justify-center py-0 px-4 box-border text-center text-[#4853F3]"
+        >
           <div className="self-stretch relative [text-decoration:underline] leading-[24px] font-medium">
             Frequently Asked Questions
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

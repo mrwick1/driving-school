@@ -61,10 +61,10 @@ const ManagementCard2 = () => {
             Learn more
           </div>
         </div>
-        <div className="self-stretch flex flex-row items-center justify-between text-right text-5xl">
+        <div className="self-stretch flex flex-row items-center justify-between text-right text-[24px]">
           <div className="flex flex-row items-end justify-center gap-[2px]">
             <div className="flex flex-row items-end justify-center">
-              <b className="relative">
+              <b className="relative text-[#101828]">
                 <span className="leading-[32px]">40</span>
                 <span className="text-base leading-[24px]">€</span>
               </b>

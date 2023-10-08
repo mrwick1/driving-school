@@ -5,9 +5,12 @@ const TitleSec = () => {
       <div className="flex flex-row items-center justify-end gap-[16px] text-base text-gray-500 font-text-sm-normal">
         <div className="relative w-[255px] h-11">
           <div className="absolute w-full top-[0px] right-[0px] left-[0px] flex flex-col items-start justify-start">
-            <div className="self-stretch flex flex-col items-start justify-start">
+            <div className="self-stretch flex  items-center pl-2 justify-start border border-solid border-gray-200 relative rounded shadow-[0px_1px_2px_rgba(16,_24,_40,_0.05)] ">
+              <button>
+                <img src="/public/images/searchIcon.svg" />
+              </button>
               <input
-                className="font-text-xs-medium text-base bg-white self-stretch rounded shadow-[0px_1px_2px_rgba(16,_24,_40,_0.05)] flex flex-row items-center justify-start py-2.5 px-3.5 border-[1px] border-solid border-gray-200"
+                className=" ring-0 outline-none font-text-xs-medium text-base bg-white self-stretch  flex flex-row items-center justify-start py-2.5 px-3.5 border-[1px] border-none bg-transparent "
                 placeholder="Search courses"
                 type="search"
               />

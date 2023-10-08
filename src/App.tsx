@@ -1,7 +1,7 @@
-import ManagementCard2 from "./components/step3/Management/ManagementCard2";
+import StepThree from "./components/step3";
 
 const App = () => {
-  return <ManagementCard2 />;
+  return <StepThree />;
 };
 
 export default App;
